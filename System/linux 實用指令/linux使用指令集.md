@@ -26,3 +26,22 @@ nvidia-smi -L
 ``` sh
 dos2unix *
 ```
+
+
+# 檔案複製
+
+## 遠端
+* scp
+
+## 進度
+* pv
+
+
+# 歷史紀錄
+* history
+
+
+# 查天氣
+* curl 'wttr.in/hsinchu?lang=zh'
+* curl 'wttr.in/:help'​
+* https://github.com/chubin/wttr.in
