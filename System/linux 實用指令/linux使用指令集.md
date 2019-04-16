@@ -45,3 +45,7 @@ dos2unix *
 * curl 'wttr.in/hsinchu?lang=zh'
 * curl 'wttr.in/:help'​
 * https://github.com/chubin/wttr.in
+
+
+# 關機
+* sudo shutdown +30 "Development server is going down for maintenance. Please save your work ASAP."
