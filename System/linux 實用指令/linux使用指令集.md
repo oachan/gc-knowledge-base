@@ -49,3 +49,7 @@ dos2unix *
 
 # 關機
 * sudo shutdown +30 "Development server is going down for maintenance. Please save your work ASAP."
+
+
+# 顯示多個檔案, 附加檔案名稱
+* tail -n +1 file1.txt file2.txt file3.txt
