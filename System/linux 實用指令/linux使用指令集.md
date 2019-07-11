@@ -53,3 +53,11 @@ dos2unix *
 
 # 顯示多個檔案, 附加檔案名稱
 * tail -n +1 file1.txt file2.txt file3.txt
+
+
+# 系统级 IO 监控
+* iostat -xdm 1
+    * https://jaminzhang.github.io/os/Linux-IO-Monitoring-and-Deep-Analysis/
+
+# 查看所有的掛載資訊
+* df -h
