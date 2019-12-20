@@ -61,3 +61,7 @@ dos2unix *
 
 # 查看所有的掛載資訊
 * df -h
+
+# 密碼產生
+* Usage: pwgen [ OPTIONS ] [ pw_length ] [ num_pw ]
+* pwgen -1cnsy 8

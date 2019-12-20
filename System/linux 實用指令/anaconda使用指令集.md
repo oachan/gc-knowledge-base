@@ -13,8 +13,8 @@ conda create --yes -n ENV_NAME python=2
 
 ## 進入/離開環境
 ```
-source activate ENV_NAME
-source deactivate
+conda activate ENV_NAME
+conda deactivate
 ```
 
 
