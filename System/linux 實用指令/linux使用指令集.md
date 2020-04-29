@@ -65,3 +65,19 @@ dos2unix *
 # 密碼產生
 * Usage: pwgen [ OPTIONS ] [ pw_length ] [ num_pw ]
 * pwgen -1cnsy 8
+
+
+# 設定資料夾預設權限
+```
+sudo setfacl -Rdm g:groupnamehere:rwx /base/path/members/
+sudo setfacl -Rm g:groupnamehere:rwx /base/path/members/
+```
+
+## 遠端桌面設定方式
+- https://www.ichiayi.com/wiki/tech/ubuntu_xrdp
+```
+echo xfce4-session > ~/.xsession
+```
+
+## 重複執行 cmd
+`watch -n 1 ls -l`
