@@ -23,3 +23,9 @@ while true; clear; do nvidia-smi ; sleep 2; done
 ```
 lspci | grep ' VGA ' | cut -d" " -f 1 | xargs -i lspci -v -s {}
 ```
+
+
+## 只使用某張GPU訓練
+```
+CUDA_VISIBLE_DEVICES=1
+```
