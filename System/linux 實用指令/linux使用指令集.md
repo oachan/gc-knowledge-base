@@ -1,5 +1,10 @@
 # linux 使用指令集
 
+## 確認 os 版本
+```
+ls -l /etc/*-release
+```
+
 ## 查詢 port 對應的 pid
 ```
 netstat -nlp | grep [port]
