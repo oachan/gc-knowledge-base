@@ -12,6 +12,11 @@ nvcc --version
 ```
 
 
+## 確認 GPU driver 版本
+```
+cat /proc/driver/nvidia/version
+```
+
 
 ## 持續監控 GPU 使用情況
 ``` sh
@@ -32,3 +37,4 @@ CUDA_VISIBLE_DEVICES=1
 
 ## TF 版本資訊
 - [TF與CUDA使用版本資訊](https://tensorflow.google.cn/install/source#gpu)
+- [CUDA與GPU driver使用版本資訊](https://docs.nvidia.com/deploy/cuda-compatibility/index.html#source-compatibility)
