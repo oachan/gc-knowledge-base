@@ -29,3 +29,6 @@ lspci | grep ' VGA ' | cut -d" " -f 1 | xargs -i lspci -v -s {}
 ```
 CUDA_VISIBLE_DEVICES=1
 ```
+
+## TF 版本資訊
+- [TF與CUDA使用版本資訊](https://tensorflow.google.cn/install/source#gpu)
