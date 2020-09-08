@@ -15,6 +15,7 @@ nvcc --version
 ```
 conda install cudatoolkit=9.0
 # conda install cudnn
+# https://bitbucket.org/dashboard/overview
 ```
 
 
