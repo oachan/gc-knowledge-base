@@ -11,6 +11,13 @@ cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 nvcc --version
 ```
 
+## 透過 conda 更換 cuda 版本
+```
+conda install cudatoolkit=9.0
+# conda install cudnn
+```
+
+
 
 ## 確認 GPU driver 版本
 ```
