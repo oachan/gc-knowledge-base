@@ -8,7 +8,7 @@ bash Anaconda2-5.0.1-Linux-x86_64.sh
 
 ## 建立環境
 ``` sh
-conda create --yes -n ENV_NAME python=2
+conda create --yes -n ENV_NAME python=3.6
 ```
 
 ## 進入/離開環境
