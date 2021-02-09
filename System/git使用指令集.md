@@ -10,4 +10,8 @@
 `git checkout [branch]`
 
 ## 清除老舊 branch 
-git fetch origin --prune
+`git fetch origin --prune`
+
+
+## 免密碼(有風險小心使用)
+` git config credential.helper store`
