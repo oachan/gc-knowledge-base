@@ -1,6 +1,6 @@
 # pytorch低版本环境加载高版本（1.6+）模型报错（xxx is a zip archive (did you mean to use torch.jit.load()?)）
 ```
 import torch
-state_dict = torch.load("xxx.pth")
+state_dict = torch.load("pytorch_model.bin")
 torch.save(state_dict, "xxx.pth", _use_new_zipfile_serialization=False)
 ```
