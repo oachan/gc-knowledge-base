@@ -14,6 +14,8 @@
 - 官方 git: https://github.com/kserve/kserve
 - 官方網站: https://kserve.github.io/website/0.7/
 - 安裝: https://www.cnblogs.com/zhouwenyang/p/15533276.html
+- k8s基礎知識: https://jimmysong.io/kubernetes-handbook/
+- Kserve介紹: https://www.techatbloomberg.com/blog/the-journey-to-build-bloombergs-ml-inference-platform-using-kserve-formerly-kfserving/
 
 
 ## Kubernetes
