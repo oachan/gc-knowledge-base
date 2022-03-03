@@ -19,7 +19,6 @@
 - Trend 3: Privacy-Enhancing Computation 
 	- 隱私強化運算（Privacy-enhancing computation），著重在隱私資料的保護，包含：可信任的資料處理或分析環境、去中心化的資料處理或分析機制、前處理階段採行的加密資料與演算法。
 - Trend 4: Cloud-Native Platforms 
-	- 
 - Trend 5: Composable Applications
 - Trend 6: Decision Intelligence 
 - Trend 7: Hyperautomation
