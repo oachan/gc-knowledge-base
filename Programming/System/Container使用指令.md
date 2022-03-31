@@ -47,6 +47,7 @@ $ docker run -it --rm --name my-running-app my-python-app
 ### python dockerfile
 [打造最小 Python Docker 容器](https://blog.wu-boy.com/2021/07/building-minimal-docker-containers-for-python-applications/)
 [Python - Official Image | Docker Hub](https://hub.docker.com/_/python)
+
 * python:<version>
 * python:<version>-slim
 * python:<version>-alpine
@@ -55,6 +56,7 @@ $ docker run -it --rm --name my-running-app my-python-app
 
 ## Run a single Python script
 沒寫Dockerfile，直接run的方法.
+  
 `$ docker run -it --rm --name my-running-script -v "$PWD":/usr/src/myapp -w /usr/src/myapp python:3 python your-daemon-or-script.py`
 
 # Docker-Compose
