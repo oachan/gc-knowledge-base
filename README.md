@@ -1,8 +1,8 @@
 # About this repository.
 
-This repository is my own knowledge base.
+Hi I'm GC Huang. This repository is knowledge base about my work experience.
 
-If you are interested in the content, you can contact me.
+If you have questions in the content, you can contact me.
 
 cheng@nlplab.cc
 
