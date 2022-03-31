@@ -30,11 +30,19 @@ ENV PYTHONUNBUFFERED 1
 # install dependencies
 RUN pip install --upgrade pip
 COPY ./requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 # ... RUN pip install ...
 
 # copy project
 COPY . .
 ```
+
+### python dockerfile
+[打造最小 Python Docker 容器](https://blog.wu-boy.com/2021/07/building-minimal-docker-containers-for-python-applications/)
+* python3.9
+* python3.9-slim
+* python3.9-alpine
+* python3.9-alpine (Multistage)
 
 
 # Docker-Compose
