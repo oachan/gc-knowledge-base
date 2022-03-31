@@ -48,7 +48,7 @@ $ docker run -it --rm --name my-running-app my-python-app
 - [打造最小 Python Docker 容器](https://blog.wu-boy.com/2021/07/building-minimal-docker-containers-for-python-applications/)
 - [Python - Official Image | Docker Hub](https://hub.docker.com/_/python)
 
-有考慮Image大小可以嘗試。
+有考慮Image大小可以嘗試，或是Multi-stage Build。
 * python:<version>
 * python:<version>-slim
 * python:<version>-alpine
