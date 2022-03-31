@@ -13,3 +13,8 @@
 3. 四種模式: [no, on-failure, always, unless-stopped]
 4. `docker inspect` 檢查是否有變更設定成功
 5. `docker inspect --format '{{.HostConfig.RestartPolicy.Name}}' <container-id>`
+
+# Docker-Compose
+* 啟動服務: `docker-compose -p $(PROJECT) up -d`
+* 關閉服務: `docker-compose -p $(PROJECT) stop`
+* 移除服務: `docker-compose -p $(PROJECT) down`
