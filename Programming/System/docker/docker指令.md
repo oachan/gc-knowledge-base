@@ -53,8 +53,6 @@ $ docker run -it --rm --name my-running-app my-python-app
 * python:<version>-alpine
 * python:<version>-alpine (Multistage)
 
-* python:<version>-windowsservercore
-
 ## Run a single Python script
 沒寫Dockerfile，直接run的方法.
   
