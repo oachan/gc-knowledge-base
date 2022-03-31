@@ -45,13 +45,14 @@ $ docker run -it --rm --name my-running-app my-python-app
 ```
 
 ### python dockerfile
-[打造最小 Python Docker 容器](https://blog.wu-boy.com/2021/07/building-minimal-docker-containers-for-python-applications/)
-[Python - Official Image | Docker Hub](https://hub.docker.com/_/python)
+- [打造最小 Python Docker 容器](https://blog.wu-boy.com/2021/07/building-minimal-docker-containers-for-python-applications/)
+- [Python - Official Image | Docker Hub](https://hub.docker.com/_/python)
 
 * python:<version>
 * python:<version>-slim
 * python:<version>-alpine
 * python:<version>-alpine (Multistage)
+
 * python:<version>-windowsservercore
 
 ## Run a single Python script
