@@ -19,3 +19,7 @@ services:
       - FLASK_ENV: development
     restart: always
 ```
+
+
+## 額外資訊
+[用 docker-compose 優雅關閉服務](https://blog.wu-boy.com/2021/06/graceful-stop-service-using-docker-compose-in-golang/)
