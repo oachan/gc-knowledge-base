@@ -6,19 +6,16 @@ Docker Compose 是用來組合多個 container 成為一個完整服務的工具
 
 ## `docker-compose.yml` Example
 ``` yml
-version: '3.9'
+version: "3.9"
 
 services:
   web:
-    build: ./Platform
-    command: python manage.py runserver 0.0.0.0:38100
-    volumes:
-      - ./Platform/:/usr/src/app/
-      - ./PlatformUploadScript/:/usr/src/PlatformUploadScript/
-      - ./MovieScriptETL/:/usr/src/MovieScriptETL/
+    build: .
     ports:
-      - 38100:38100
+      - "8000:5000"
+    volumes:
+      - .:/usr/src/app
     environment:
-      - HOST_IP=172.17.0.1
+      - FLASK_ENV: development
     restart: always
 ```
