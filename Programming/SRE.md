@@ -1,4 +1,4 @@
-# SRE
+# Site Reliability Engineering (SRE)
 
 ## 部屬方式
 - [藍綠部署、金絲雀釋出（灰度釋出）、A/B測試的準確定義](https://www.796t.com/content/1542676162.html)
